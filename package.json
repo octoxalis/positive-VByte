@@ -1,0 +1,14 @@
+{
+  "name": "POSITIVE-VByte",
+  "version": "1.0.0",
+  "description": "VByte encoding for JavaScript Arrays",
+  "main": "source/",
+  "dependencies": {
+  },
+  "keywords": [
+    "VByte encoding",
+    "compression/decompression"
+  ],
+  "author": "octoxalis",
+  "license": "MIT"
+}
