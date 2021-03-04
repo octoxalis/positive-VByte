@@ -1,4 +1,4 @@
-const FIC_o =
+const POS_o =
 {
 //: Compress a __positive__ Integer Array
 compress__a:
@@ -13,7 +13,7 @@ compress__a:
   const out_a =
     new ArrayBuffer
     (
-      FIC_o
+      POS_o
         .size__n( int32_a )
     )
 
@@ -131,7 +131,7 @@ size__n:
   )
   {
     size_n +=
-      FIC_o
+      POS_o
         .byte__n( int32_a[at_n] )
   }
 
@@ -170,6 +170,20 @@ byte__n:
 
 
 
-module.exports = FIC_o
+//???module.exports = POS_o
+void function
+()
+{
+  //...FS_o
+  //...  .writeFile
+  //...  (
+  //...    'source/make/data/db.json',
+  //...    JSON.stringify( db_o ),
+  //...    'utf8',
+  //...    out_o => console.log( `-- Writing db.json: ${out_o}` )
+  //...  )
+
+}()
+
 
 

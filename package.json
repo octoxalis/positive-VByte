@@ -1,14 +1,23 @@
 {
-  "name": "POSITIVE-VByte",
+  "name": "positive-VByte",
   "version": "1.0.0",
   "description": "VByte encoding for JavaScript Arrays",
   "main": "source/",
-  "dependencies": {
-  },
   "keywords": [
     "VByte encoding",
     "compression/decompression"
   ],
   "author": "octoxalis",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/octoxalis/positive-VByte.git"
+  },
+  "bugs": {
+    "url": "https://github.com/octoxalis/positive-VByte/issues"
+  },
+  "homepage": "https://github.com/octoxalis/positive-VByte#readme"
 }

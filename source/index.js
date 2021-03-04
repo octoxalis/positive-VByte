@@ -1,4 +1,4 @@
-const FIA_o =
+const POS_o =
 {
   src_s: '',
 
@@ -34,7 +34,7 @@ const FIA_o =
     data_s = `[${data_s}]`
 
     
-    FIA_o
+    POS_o
       .src_s = data_s
   }
 
@@ -54,13 +54,13 @@ function getRandomInt(min, max) {
 void function
 ()
 {
-  FIA_o
+  POS_o
     .generate__s()
 
   const from__a =
     new Function
     (
-      `return ${FIA_o.src_s}`
+      `return ${POS_o.src_s}`
     )
 
 
