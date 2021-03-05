@@ -1,4 +1,4 @@
-const FIC_o =
+const POS_o =
 {
 //: Uncompress an array of integer from an ArrayBuffer
 //: Return the array
